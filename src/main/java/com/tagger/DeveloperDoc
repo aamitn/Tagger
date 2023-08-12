@@ -1,0 +1,88 @@
+Developer Docs
+
+
+Tag Replacement Tool Developer Documentation
+
+Introduction
+
+The Tag Replacement Tool is a Java desktop application designed to simplify the process of tag replacement in Managed Object (MO) content. This document provides a comprehensive guide for developers working on the application. It covers the architecture, classes, methods, and attributes used in the application.
+
+Architecture
+
+The Tag Replacement Tool follows the Model-View-Controller (MVC) design pattern to separate the concerns of data management, user interface, and application logic. The architecture consists of three main components:
+
+Model: Represents the data and business logic of the application. Includes classes related to database management and tag processing.
+
+View: Represents the user interface of the application. Includes classes related to GUI components and user interactions.
+
+Controller: Acts as an intermediary between the Model and View. Handles user input, invokes business logic, and updates the View accordingly.
+
+Architecture Diagram
+
+Package Structure
+
+The application is organized into the following packages:
+
+releasemvc: Contains the main class to launch the application.
+
+model: Contains classes related to the data model and database management.
+
+view: Contains classes related to the user interface and GUI components.
+
+controller: Contains classes related to the application's logic and user interactions.
+
+Class Details
+
+Model Package
+
+TagReplacementToolModel: Represents the data model of the application. Contains attributes to store database connection details and methods to handle database operations and tag processing.
+
+Attributes:
+
+DB_URL: String, the JDBC URL for the database connection.
+USER: String, the username for the database connection.
+PASS: String, the password for the database connection.
+DB_NAME: String, the name of the database to use.
+TABLE1_NAME: String, the name of the table containing MO names, content, and tags.
+TABLE2_NAME: String, the name of the table containing tag comments.
+Methods:
+
+connectToDatabase(): Establishes a connection to the database.
+getMoNames(): Retrieves an array of available MO names from the database.
+processMoContent(String moName): Processes the MO content for tag replacement.
+extractTags(String moContent): Extracts tags from the MO content.
+getTagName(String tag): Gets the tag name from the tag (handles tags with and without content).
+getTagComment(String tagName): Retrieves the tag comment from the database for a given tag name.
+replaceTag(String moName, String tagName, String replacement): Replaces a tag in the MO content with the provided replacement value.
+saveMoContent(String moName, String moContent): Saves the processed MO content back to the database.
+View Package
+
+TagReplacementToolView: Represents the user interface of the application. Contains GUI components and methods for UI interactions.
+
+Methods:
+createAndShowGUI(): Creates and displays the main application window.
+createToolBar(): Creates the toolbar with buttons and their action listeners.
+createInputPanel(): Creates the input panel with MO name selection and process button.
+createOutputPanel(): Creates the output panel to display the processed content.
+showHelpDialog(): Displays the "Help" dialog with additional information.
+showAboutDialog(): Displays the "About" dialog with version and author information.
+showInputDialogWithInfo(String message, String moName, String tagName, String tagComment): Displays the replacement dialog with tag information.
+showFinalContentWindow(String moContent): Displays the final processed MO content in a separate window.
+Controller Package
+
+TagReplacementToolController: Represents the controller of the application. Handles user interactions and updates the Model and View accordingly.
+
+Methods:
+attachEventListeners(): Attaches event listeners to GUI components.
+processMoContent(): Invokes the tag replacement process for the selected MO name.
+openWebsite(String url): Opens a website URL in the default web browser.
+saveData(): Saves the processed MO content to a custom ".trt" file.
+loadData(): Loads MO content from a ".trt" file.
+loadConfig(): Loads configuration settings from "trtconfig.json".
+Version History
+
+Refer to the version history section for a detailed list of updates made to the application.
+
+Conclusion
+
+The Tag Replacement Tool provides a structured and modular approach to tag replacement in Managed Object content. Developers can easily extend and modify the application to suit specific requirements. The MVC architecture ensures a clear separation of concerns and enhances code maintainability and scalability.

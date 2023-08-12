@@ -1,0 +1,8 @@
+{
+  "DB_URL": "jdbc:mysql://localhost/mydb",
+  "USER": "root",
+  "PASS": "",
+  "DB_NAME": "mydb",
+  "TABLE1_NAME": "table1",
+  "TABLE2_NAME": "table2"
+}

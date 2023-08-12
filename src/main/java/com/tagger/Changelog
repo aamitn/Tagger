@@ -1,0 +1,49 @@
+CHANGELOG FILE :
+
+
+Version History:
+
+Version 0.1 (Initial Development):
+
+Created the basic structure of the Tag Replacement Tool program.
+Implemented database connectivity to fetch MO names.
+Provided a simple GUI with a combo box to select MO names.
+Supported loading MO content from the database based on the selected MO name.
+Implemented basic tag replacement functionality for tags with content only.
+Version 0.2:
+
+Added support for tags with only names and no content during the replacement process.
+Updated the GUI to show a welcome heading on the MO name selection dialog.
+Improved validation and error handling for database connections.
+Enhanced the JSON configuration loading to handle errors more gracefully.
+Version 0.3:
+
+Refactored the code to use the MVC design pattern.
+Separated frontend (View) and business logic (Model) into different classes.
+Used lambda expressions and functional interfaces for event handling.
+Introduced a Controller class to manage interactions between Model and View.
+Implemented toolbar with "Open," "Save," "Load," "Help," and "About" buttons.
+Added "Help" and "About" dialogs to display relevant information to the user.
+Version 0.4:
+
+Enabled opening a specific website when the "Open" button is clicked.
+Supported saving and loading MO data to and from custom .trt files.
+Implemented custom dialog for tag replacement, including tag name, comments, and replacement text input.
+Introduced a separate final content window to display the processed MO content after replacement.
+Handled errors related to database connections and configuration file loading.
+Improved the GUI design for a better user experience.
+Version 0.5 (Upcoming Changes):
+
+Updated the TagReplacementToolConfig class to use properties file or environment variables for configuration.
+Added support for internationalization (i18n) and localization (l10n) for the user interface.
+Implemented data persistence to store processed MO content back into the database.
+Enhanced the GUI with keyboard shortcuts for important actions in the application.
+Included unit tests to ensure the correctness of the core functionality.
+Optimized database queries and handling of large datasets.
+Version 1.0 (Future Release):
+
+Finalized and polished the Tag Replacement Tool for production use.
+Documented the code and provided user documentation.
+Performed extensive testing and bug fixing for a stable release.
+Prepared for official deployment and distribution.
+Note: The version history provided here is just an example and can be modified based on the actual progress and updates of the project. The version numbers and features are subject to change as development continues.

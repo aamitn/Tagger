@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0b68a305-54e6-4883-bda9-826bb4c92443" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Tagger_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/TagReplacementToolApp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/Changelog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/DeveloperDoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/Readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/TagReplacementToolApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/TagReplacementToolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/TagReplacementToolController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/TagReplacementToolModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/TagReplacementToolView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/console/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/console/Driverv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/console/TagReplacementTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/console/TagReplacementToolv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/console/TagReplacementToolv3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/console/hasher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/console/tagger.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/console/trtconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/old/Tagrt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/old/TagrtGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/tagger.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tagger.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trtconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2TbT5d2jyOZ8ISSt78ZdwNyjlDh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bigwi/IdeaProjects/Tagger/out/Tagger&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.43103448&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;mariadb&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bigwi\IdeaProjects\Tagger" />
+      <recent name="C:\Users\amit\IdeaProjects\Tagger\src\main\java\com\tagger\console" />
+      <recent name="C:\Users\amit\IdeaProjects\Tagger\src\main\java\com\tagger\old" />
+      <recent name="C:\Users\amit\IdeaProjects\Tagger\src\main\java\com\tagger" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bigwi\IdeaProjects\Tagger" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b68a305-54e6-4883-bda9-826bb4c92443" name="Changes" comment="" />
+      <created>1691310599944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691310599944</updated>
+      <workItem from="1691310602060" duration="2951000" />
+      <workItem from="1691506042022" duration="1150000" />
+      <workItem from="1691510071025" duration="13000" />
+      <workItem from="1691510639810" duration="13000" />
+      <workItem from="1691852023698" duration="492000" />
+      <workItem from="1691852532910" duration="397000" />
+      <workItem from="1691852940870" duration="2648000" />
+      <workItem from="1691855942286" duration="944000" />
+      <workItem from="1691861615461" duration="6000" />
+      <workItem from="1691862143759" duration="3324000" />
+      <workItem from="1691868127578" duration="67000" />
+      <workItem from="1691868470494" duration="108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

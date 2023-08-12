@@ -1,0 +1,86 @@
+Sure! Let's provide a detailed description of the Tag Replacement Tool application and its architecture:
+
+Tag Replacement Tool Application Description:
+
+The Tag Replacement Tool is a desktop application designed to help users perform tag replacement in MO (Managed Object) content. Managed Objects are entities managed by a network management system in telecommunications or network domains. These MOs often contain tags that need to be replaced with specific values, and the application simplifies this process.
+
+Application Features:
+
+GUI Interface: The application provides a user-friendly Graphical User Interface (GUI) for easy interaction with the users. It uses Swing, a Java GUI toolkit, to build the UI components.
+
+Database Integration: The application integrates with an external relational database to store and retrieve MO-related data. This database holds MO names, their content, and tag information.
+
+Tag Replacement: The main functionality of the application is to replace tags within MO content with user-defined values. Users can select an MO from a dropdown list, view its content, and replace tags interactively.
+
+Configurable Settings: The application loads configuration settings from a JSON file named "trtconfig.json." These settings include database credentials, table names, and other options, making the application flexible for different environments.
+
+File Operations: The application supports saving the processed MO content to custom ".trt" files and loading data from these files for future use.
+
+Help and About Dialogs: The application provides "Help" and "About" dialogs that display relevant information about the tool.
+
+Application Architecture:
+
+The Tag Replacement Tool follows the Model-View-Controller (MVC) architectural pattern, which separates the application into three main components:
+
+Model:
+
+The Model represents the data and business logic of the application. It encapsulates the interaction with the database and tag replacement operations.
+Key components:
+TagReplacementToolModel: Manages data related to MOs, tags, and processed content. It interacts with the database to fetch and update data.
+TagReplacementToolConfig: Handles loading configuration from "trtconfig.json."
+View:
+
+The View handles the user interface and presentation layer. It is responsible for displaying information to the user and capturing user inputs.
+Key components:
+TagReplacementToolView: Builds and manages the GUI components like combo boxes, buttons, text areas, and dialogs.
+Controller:
+
+The Controller acts as an intermediary between the Model and View. It facilitates communication and coordination between the two.
+Key components:
+TagReplacementToolController: Listens to user actions, processes user inputs, and triggers appropriate operations in the Model.
+Interaction Flow:
+
+When the application starts (TagReplacementToolApp), it initializes the Model (TagReplacementToolModel) and loads the configuration from "trtconfig.json" using TagReplacementToolConfig.
+
+The Model establishes a connection to the external database using the database credentials from the configuration.
+
+The Model retrieves a list of MO names from the database and populates the dropdown list in the View.
+
+When the user selects an MO from the dropdown list and clicks the "Process" button, the Controller (TagReplacementToolController) captures the event.
+
+The Controller communicates with the Model to fetch the MO content and extract tags from it.
+
+The Controller then interacts with the View to display the MO content and initiate the tag replacement process.
+
+For each tag, the Controller shows a replacement dialog (showInputDialogWithInfo) and takes the user's input for the replacement value.
+
+The Controller updates the Model with the user's input and performs tag replacement in the MO content.
+
+The Controller communicates with the View to display the final processed MO content in a separate window (showFinalContentWindow).
+
+The user can copy the final processed MO content to the clipboard or save it to a custom ".trt" file.
+
+Version History:
+
+Version 1.0:
+
+Basic application framework with MVC architecture.
+GUI interface with "Process," "Open," "Save," "Load," "Help," and "About" buttons.
+Tag replacement for MOs with tags containing both name and content.
+Version 1.1:
+
+Improved error handling and GUI feedback for database connection failures.
+Added "Welcome" heading on the MO name selection dialog.
+Refactored code for better organization and readability.
+Version 1.2:
+
+Enhanced getTagName method to handle tags with only name and no content.
+Version 1.3:
+
+Improved user experience by removing {# and } characters from tag names in the replacement dialog.
+Bug fix for tag replacement not working for tags with only name.
+Version 1.4:
+
+Shortened code and optimized loading of configuration settings from "trtconfig.json."
+Added extensive logging for debugging and error tracking.
+Please note that this version history is fictional and provided for illustrative purposes. In a real development scenario, each version would include detailed release notes, bug fixes, enhancements, and other relevant changes.
