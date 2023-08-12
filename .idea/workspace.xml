@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b68a305-54e6-4883-bda9-826bb4c92443" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Tagger_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/TagReplacementToolApp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/Changelog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/DeveloperDoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/Readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/TagReplacementToolApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/TagReplacementToolConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/TagReplacementToolController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/TagReplacementToolModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/TagReplacementToolView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/console/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/console/Driverv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/console/TagReplacementTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/console/TagReplacementToolv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/console/TagReplacementToolv3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/console/hasher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/console/tagger.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/console/trtconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/old/Tagrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/old/TagrtGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tagger/tagger.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tagger.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trtconfig.json" afterDir="false" />
-    </list>
+    <list default="true" id="0b68a305-54e6-4883-bda9-826bb4c92443" name="Changes" comment="mycommit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +13,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": -1
+}]]></component>
   <component name="ProjectId" id="2TbT5d2jyOZ8ISSt78ZdwNyjlDh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -114,11 +87,36 @@
       <workItem from="1691862143759" duration="3324000" />
       <workItem from="1691868127578" duration="67000" />
       <workItem from="1691868470494" duration="108000" />
+      <workItem from="1691868696335" duration="326000" />
     </task>
+    <task id="LOCAL-00001" summary="mycommit">
+      <option name="closed" value="true" />
+      <created>1691869002453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691869002453</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mycommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="mycommit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
