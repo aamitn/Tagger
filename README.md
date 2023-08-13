@@ -40,7 +40,7 @@ Getting Started
 
     shCopy code
 
-    `git clone https://github.com/your-username/tagger.git`
+    `git clone https://github.com/aamitn/Tagger.git`
 
 2.  Navigate to the project directory:
 
@@ -55,12 +55,12 @@ Getting Started
     `javac TagReplacementToolApp.java
     java TagReplacementToolApp`
 
-4.  Set Up the Database: Configure the database connection details in the `trtconfig.json` file. You may need to set up your preferred database system (e.g., MySQL) and create the necessary tables (e.g., TABLE1_NAME and TABLE2_NAME) before running the application.
+4.  Set Up the Database: Configure the database connection details in the `trtconfig.json` file. You may need to set up your preferred database system (e.g., MySQL) and create the necessary tables (e.g., TABLE1_NAME and TABLE2_NAME) before running the application. You can create the database by running the included `tagger.sql` file
 
 Configuration
 -------------
 
-Configuration settings are stored in the `trtconfig.json` file. Modify this file to adjust database connections, table names, and other parameters.
+Configuration settings are stored in the `trtconfig.json` file. Modify this file to adjust database connections, table names, and other parameters. This file should be located on the root of C: drive in Windows
 
 Contributing
 ------------
