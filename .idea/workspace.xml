@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b68a305-54e6-4883-bda9-826bb4c92443" name="Changes" comment="mycommit" />
+    <list default="true" id="0b68a305-54e6-4883-bda9-826bb4c92443" name="Changes" comment="mycommit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tagger/TagReplacementToolModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tagger/TagReplacementToolModel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +18,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": -1
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2TbT5d2jyOZ8ISSt78ZdwNyjlDh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,15 +45,16 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bigwi/IdeaProjects/Tagger/out/Tagger&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bigwi/IdeaProjects/WorkbookInitializer&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.43103448&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -87,7 +95,13 @@
       <workItem from="1691862143759" duration="3324000" />
       <workItem from="1691868127578" duration="67000" />
       <workItem from="1691868470494" duration="108000" />
-      <workItem from="1691868696335" duration="326000" />
+      <workItem from="1691868696335" duration="831000" />
+      <workItem from="1691925796796" duration="651000" />
+      <workItem from="1691951771858" duration="2036000" />
+      <workItem from="1692011115739" duration="1538000" />
+      <workItem from="1692124608523" duration="588000" />
+      <workItem from="1692125209008" duration="604000" />
+      <workItem from="1692125830448" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="mycommit">
       <option name="closed" value="true" />
@@ -97,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691869002453</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mycommit">
+      <option name="closed" value="true" />
+      <created>1691869194065</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691869194065</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,5 +143,23 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="greeting">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="greeting" />
+              <option name="initiateTms" value="1692125886355" />
+              <option name="request" value="" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="&#10;Hello, I am Machinet AI - context aware chat, which can help you with your daily programming routine. How can I help?" />
+              <option name="responseTms" value="1692125888089" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

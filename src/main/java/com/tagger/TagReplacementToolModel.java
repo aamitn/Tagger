@@ -1,5 +1,7 @@
 package com.tagger;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -38,7 +40,7 @@ public class TagReplacementToolModel {
 		}
 	}
 
-	public static String[] getMoNames() {
+	public static String @NotNull [] getMoNames() {
 		List<String> moNameList = new ArrayList<>();
 		try (Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
 				Statement stmt = conn.createStatement();
