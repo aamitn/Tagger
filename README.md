@@ -70,4 +70,4 @@ Contributions to this project are welcome. Feel free to submit bug reports, feat
 License
 -------
 
-This project is licensed under the [MIT License](https://chat.openai.com/c/LICENSE).
+This project is licensed under the [MIT License](https://mit-license.org).
