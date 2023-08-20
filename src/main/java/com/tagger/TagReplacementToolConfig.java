@@ -16,7 +16,7 @@ public class TagReplacementToolConfig {
 		loadConfig();
 	}
 
-	static final String CONFIG_FILE_PATH = "C:\\trtconfig.json";
+	static final String CONFIG_FILE_PATH = System.getProperty("user.dir") + "\\trtconfig.json";
 
 	// Configuration variables (from trtconfig.json) - Replace with your own values
 
