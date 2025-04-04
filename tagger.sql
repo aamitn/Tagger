@@ -1,3 +1,5 @@
+-- MySQL Schema Generated using HeidiSQL
+
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1 / localhost
 -- Server version:               8.0.30 - MySQL Community Server - GPL
