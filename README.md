@@ -38,24 +38,51 @@ Getting Started
 
 1.  Clone this repository:
 
-    shCopy code
-
-    `git clone https://github.com/aamitn/Tagger.git`
+```sh
+git clone https://github.com/aamitn/Tagger.git
+```
 
 2.  Navigate to the project directory:
 
-    shCopy code
+```sh
+cd Tagger
+```
 
-    `cd tagger`
+3.  Set Up the Database: 
+ - Configure the database connection credentials in the `trtconfig.json` file.
+ - You may need to set up your preferred database system (e.g., MySQ/PostgreSQL etc any db having suppoorted JDBC drivers ) and create the necessary tables before running the application. 
+ - You can create the database schema by running the included `tagger.sql` file . (Schema is provided for MySQL DB)
 
-3.  Build and run the application using your preferred Java IDE or command-line tools. For example, using the command-line:
+4.  Build and run the application using your preferred Java IDE or command-line tools. For example, using the command-line:
 
-    shCopy code
+```sh
+    javac TagReplacementToolApp.java
+    java TagReplacementToolApp
+```
 
-    `javac TagReplacementToolApp.java
-    java TagReplacementToolApp`
 
-4.  Set Up the Database: Configure the database connection details in the `trtconfig.json` file. You may need to set up your preferred database system (e.g., MySQL) and create the necessary tables (e.g., TABLE1_NAME and TABLE2_NAME) before running the application. You can create the database by running the included `tagger.sql` file
+Database Schema (Generic , can be adopted for any relational DB)
+-------------
+
+### Table: `table1`
+
+| Column Name  | Data Type   | Constraints               | Description                          |
+|-------------|------------|--------------------------|----------------------------------|
+| `mo_name`   | VARCHAR(15) | PRIMARY KEY, NOT NULL     | Unique identifier for each record. |
+| `mo_content` | TEXT       | NULLABLE                  | Content with embedded tags.      |
+| `mo_tags`   | TEXT       | NULLABLE                  | Comma-separated list of associated tags. |
+
+### Table: `table2`
+
+| Column Name  | Data Type   | Constraints               | Description                          |
+|-------------|------------|--------------------------|----------------------------------|
+| `mo_tags`   | VARCHAR(15) | PRIMARY KEY, NOT NULL     | Unique identifier for each tag. |
+| `tag_comment` | TEXT       | NULLABLE                  | Description or comment about the tag. |
+
+
+
+
+
 
 Configuration
 -------------
